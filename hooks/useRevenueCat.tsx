@@ -7,7 +7,7 @@ import { CustomerInfo } from "react-native-purchases/dist/customerInfo";
 import Purchases, { LOG_LEVEL } from "react-native-purchases/dist/purchases";
 
 const APIKeys = {
-  APPLE: "appl_izPzWtQIJndflLXlKVblxprgOcT",
+  APPLE: process.env.APPLE as string,
   GOOGLE: process.env.GOOGLE as string,
 };
 
